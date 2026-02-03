@@ -10,9 +10,5 @@ def hello():
 def health():
     return {'status': 'healthy'}, 200
 
-@app.route('/health1')
-def health1():
-    return {'status': 'healthy'}, 200
-
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8080)
