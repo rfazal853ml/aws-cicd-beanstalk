@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>Hello from AWS!</h1><p>CI/CD is working!</p>"
+    return "<h1>Hello from AWS!</h1><h2>CI/CD is working!</h2><h3>Your configure the elastic beanstalk correclty"
 
 @app.route("/health")
 def health():
